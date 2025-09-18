@@ -1,0 +1,15 @@
+C:\Users\jul04\source\repos\ZealandClimateSystem\bin\Debug\net8.0\ZealandClimateSystem.exe
+C:\Users\jul04\source\repos\ZealandClimateSystem\bin\Debug\net8.0\ZealandClimateSystem.deps.json
+C:\Users\jul04\source\repos\ZealandClimateSystem\bin\Debug\net8.0\ZealandClimateSystem.runtimeconfig.json
+C:\Users\jul04\source\repos\ZealandClimateSystem\bin\Debug\net8.0\ZealandClimateSystem.dll
+C:\Users\jul04\source\repos\ZealandClimateSystem\bin\Debug\net8.0\ZealandClimateSystem.pdb
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\ZealandClimateSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\ZealandClimateSystem.AssemblyInfoInputs.cache
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\ZealandClimateSystem.AssemblyInfo.cs
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\ZealandClimateSystem.csproj.CoreCompileInputs.cache
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\ZealandClimateSystem.sourcelink.json
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\ZealandClimateSystem.dll
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\refint\ZealandClimateSystem.dll
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\ZealandClimateSystem.pdb
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\ZealandClimateSystem.genruntimeconfig.cache
+C:\Users\jul04\source\repos\ZealandClimateSystem\obj\Debug\net8.0\ref\ZealandClimateSystem.dll
