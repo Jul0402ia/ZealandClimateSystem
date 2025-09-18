@@ -32,8 +32,6 @@ namespace ZealandClimateSystem
             }
         }
 
-        
-
         public Lokale(int id, string lokaleNumer, int maxAntalPladser)
         {
             this.id = id;
@@ -41,13 +39,10 @@ namespace ZealandClimateSystem
             this.lokaleNumer = lokaleNumer;
             this.maxAntalPladser = maxAntalPladser;
         }
-
-        
-        
-        public void ToString()
-        {
-            Console.WriteLine($"Lokale ID: {id}, Lokale Nummer: {lokaleNumer}, Max Antal Pladser: {maxAntalPladser}");
-        }   
+        public override string ToString()
+{
+    return $"Lokale ID: {id}, Lokale Nummer: {lokaleNumer}, Max Antal Pladser: {maxAntalPladser}";
+} 
 
     }
 }

@@ -24,21 +24,22 @@ namespace ZealandClimateSystem
             målinger.Add(måling);
 
         }
-        public void HentMåling(int id)
+        public Måling HentMåling(int id)
         {
             foreach (var måling in målinger)
             {
                 if (måling.id == id)
                 {
-                    måling.ToString();
+                    return måling;
                 }
             }
+            return null;
         }
-        public void PrintAllMålinger()
+        public void PrintAlleMålinger()
         {
             foreach (var måling in målinger)
             {
-                måling.ToString();
+                Console.WriteLine(måling);
             }
         }
         public void SletMåling(int id)
@@ -57,5 +58,30 @@ namespace ZealandClimateSystem
                 målinger.Remove(målingToRemove);
             }
         }
+
+
+        //Dont funktion yet:
+        public int AntalUlovligeCo2Målinger()
+        {
+            int antalUlovligeCo2Målinger = 0;
+
+            foreach (Måling måling in målinger)
+            {
+                if (måling.id > 1000) // or måling.id if it's a field
+                {
+                    
+                   
+                }
+                return antalUlovligeCo2Målinger;
+                else
+                {
+                 
+                    Console.WriteLine("Ingen ulovlige CO2 målinger fundet.");
+                }
+            
+         
+        }
+
     }
-}
+    
+      

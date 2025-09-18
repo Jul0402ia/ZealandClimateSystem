@@ -26,10 +26,10 @@ namespace ZealandClimateSystem
             this.co2 = co2;
             this.antalPersoner = antalPersoner;
         }
-        public void ToString()
+        public override string ToString()
         {
-            Console.WriteLine($"Måling ID: {id}, Tidspunkt: {tidspunkt}, Temperatur: {temperatur}, CO2: {co2}, Antal Personer: {antalPersoner}");
-        }   
+            return $"Måling ID: {id}, Tidspunkt: {tidspunkt}, Temperatur: {temperatur}, CO2: {co2}, Antal Personer: {antalPersoner}";
+        }
 
     }
 

@@ -6,37 +6,30 @@ namespace ZealandClimateSystem
     {
         static void Main(string[] args)
         {
-         
-            var register = new MålingRegister();
-            var lokale1 = new Lokale(1, "A101", 30);    
+            var målingregister = new MålingRegister();
+
+            var lokale1 = new Lokale(1, "A101", 30);
             var lokale2 = new Lokale(2, "B202", 25);
+            var lokale3 = new Lokale(2, "B203", 20);
 
             var m1 = new Måling(lokale1, 1, DateTime.Today.AddHours(11).AddMinutes(22), 21.4, 650, 12);
-            var m2 = new Måling(lokale1, 2, DateTime.Today.AddHours(11).AddMinutes(27), 21.6, 670, 14);
+            var m2 = new Måling(lokale2, 2, DateTime.Today.AddHours(11).AddMinutes(27), 21.6, 670, 14);
+            var m3 = new Måling(lokale3, 3, DateTime.Today.AddHours(11).AddMinutes(27), 27.9, 1100, 20);
 
+            målingregister.OpretMåling(m1);
+            målingregister.OpretMåling(m2);
+            målingregister.OpretMåling(m3);
 
-            register.OpretMåling(m1);
-            register.OpretMåling(m2);
+            målingregister.PrintAlleMålinger();
 
-            //Console.WriteLine($"Antal målinger i registret: {register.målinger.Count}");
+            Console.ReadLine();
 
-            //foreach (var m in register.målinger)
-            //{
-            //    Console.WriteLine(m);   
-            //}
-
-
-
-            public void PrintAlleMålinger()
-        {
-            foreach (var m in register.målinger)
-            {
-                Console.WriteLine($"Id: {m.Id}, Værdi: {m.Værdi}, Tid: {m.Tidspunkt}");
-            }
+            målingregister.AntalUlovligeCo2Målinger();
+            Console.ReadLine();
+            
         }
-
     }
 }
-}
+
 
 
